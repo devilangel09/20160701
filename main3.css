@@ -1,0 +1,111 @@
+div.ball {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    background: #bc2727;
+    border-radius: 50%;
+}
+
+div {
+    padding: 2%, 2%;
+}
+
+div.header {
+    height: 150px;
+    width: 100%;
+    background: #69aee0;
+    color: #FFF;
+    line-height: 150px;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+}
+
+div.nav {
+    height: 100px;
+    width: 100%;
+    background: #e6f49b;
+    color: #FFF;
+    line-height: 100px;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+}
+
+div.sideber {
+    height: 500px;
+    width: 25%;
+    background: #171fdd;
+    color: #FFF;
+    float: left;
+    line-height: 500px;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+}
+
+div.main {
+    height: 500px;
+    width: 75%;
+    background: #8ee069;
+    color: #FFF;
+    float: right;
+    line-height: 500px;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+}
+
+div.foter {
+    height: 50px;
+    width: 100%;
+    background: #f1c6f5;
+    color: #FFF;
+    line-height: 50px;
+    text-align: center;
+    margin: 0px;
+    border: 0px;
+    float: left;
+}
+
+.nav > li {
+    display: inline-block;
+    position: relative;
+    padding: .5em 1em;
+    border-radius: 0px;
+    border: 2px solid #000;
+    margin-left: -5px;
+    box-sizing: border-box;
+    width: 30%;
+}
+
+.submenu {
+    width: 200px;
+    padding: 0px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    position: absolute;
+    left: -1px;
+    top: 100%;
+    display: none;
+    background: #eff0de;
+}
+
+.submenu li {
+    list-style-type: none;
+    padding: .5em 15px;
+    cursor: pointer;
+}
+
+.nav>li:hover .submenu {
+    display: block;
+}
+
+.submenu>li:hover {
+    background: #FFF;
+    color: crimson;
+}
